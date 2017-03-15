@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>jQuery Demo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+      <main id="background-img-container">
+        <img src="img/backg1.jpg" alt="background image unsplash freestock" class="background-img">
+          <!-- Add your site or application content here -->
+          <div class="container">
+            <div class="header-container">
+              <h1 class="content">Attractive To-Do List</h1>
+            </div>
+              <p class="content"><em>Click trash can to delete, click to cross (toggle) an item off.</em></p>
+              <hr/>
+            <ol>
+              <li class="list-item"><span><i class="fa fa-trash" aria-hidden="true"></i></span> Watch Logan</li>
+              <li class="list-item"><span><i class="fa fa-trash" aria-hidden="true"></i></span> Visit Jake</li>
+              <li class="list-item"><span><i class="fa fa-trash" aria-hidden="true"></i></span> Learn React &amp; Redux</li>
+            </ol>
+            <form action="text">
+              <input id="toDo" type="text" placeholder="Enter Your First To-Do" />
+              <button class="submit-btn btn" type="button">Submit</button>
+            </form>
+
+          <button class="background-btn btn" type="button" name="button">Change Background</button>
+        </div>
+    </main>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/main.js"></script>
+
+
+    </body>
+</html>
